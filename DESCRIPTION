@@ -1,0 +1,24 @@
+Package: qualitema
+Type: Package
+Title: Quality of Life for EMA
+Version: 0.0.100
+Author: Ian M. Raugh
+Maintainer: Ian M. Raugh <ian.raugh@gmail.com>
+Description: A set of functions designed to make life easier in working with EMA data.
+    Includes several functions that are applicable beyond EMA (ecological 
+    momentary assessment) but were developed in the process of analyzing 
+    EMA data. Several functions will later be split into their own 
+    packages for post-hoc testing and plotting, but are kept here for 
+    convenience. As this approaches readiness for general use and possible
+    CRAN submission, those will be split off. While the functions should
+    be stable enough for most users, their documentation is 
+    under-developed and may be buggy.
+License: MIT <https://cran.r-project.org/web/licenses/MIT>
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    emmeans,
+    Hmisc,
+    tidyr
+RoxygenNote: 7.2.3
